@@ -9,12 +9,12 @@ public class Main {
         System.out.println("Повышенная сложность. Задание 5 ");
         int numberX = 0;
         int numberY = 1;
-        System.out.print(numberX + " ");
         for (int i = 0; i < 5; i++) {
-            numberY += numberX;
+            System.out.print(numberX + " ");
             numberX += numberY;
             System.out.print(numberY + " ");
-            System.out.print(numberX + " ");
+            numberY += numberX;
+
         }
     }
 
